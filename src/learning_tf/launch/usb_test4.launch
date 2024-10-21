@@ -1,0 +1,12 @@
+<launch>
+		
+		<node pkg="learning_tf" name="output5" type="4.py" output="screen">
+		<param name="turtle1" type="string" value="nose_left" />
+		</node>
+<node pkg="learning_tf" name="output4" type="4.py" output="screen">
+		<param name="turtle2" type="string" value="nose_right" />
+		</node>
+		<node pkg="rviz" type="rviz" name="rviz" args="-d /home/bearpi/python3_ws/src/rviz_config_self/config_1.rviz" required="true" />
+</launch>
+
+

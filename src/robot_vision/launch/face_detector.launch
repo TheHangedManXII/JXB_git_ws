@@ -1,0 +1,5 @@
+<launch>
+    <node pkg="robot_vision" name="face_detector" type="4_1.py" output="screen">
+        <remap from="input_rgb_image" to="/usb_cam/image_raw" />
+    </node>
+</launch>

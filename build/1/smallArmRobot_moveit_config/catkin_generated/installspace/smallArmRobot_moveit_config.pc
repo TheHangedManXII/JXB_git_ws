@@ -1,0 +1,8 @@
+prefix=/home/sdfg/python3_ws/install
+
+Name: smallArmRobot_moveit_config
+Description: Description of smallArmRobot_moveit_config
+Version: 0.3.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/home/sdfg/JXB_git_ws/devel
+
+Name: robotROS_description
+Description: Description of robotROS_description
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

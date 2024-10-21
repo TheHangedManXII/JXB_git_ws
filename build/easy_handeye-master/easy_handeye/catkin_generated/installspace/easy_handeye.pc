@@ -1,0 +1,8 @@
+prefix=/home/sdfg/JXB_git_ws/install
+
+Name: easy_handeye
+Description: Description of easy_handeye
+Version: 0.4.3
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

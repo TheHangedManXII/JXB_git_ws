@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: rqt-easy-handeye
+Version: 0.4.3
+Summary: rqt GUI for the easy_handeye package
+Home-page: UNKNOWN
+Author: Marco Esposito
+Author-email: esposito@imfusion.com
+Maintainer: Marco Esposito
+Maintainer-email: esposito@imfusion.com
+License: LGPLv3
+Platform: UNKNOWN
+Requires: std_msgs
+Requires: rospy
+
+UNKNOWN
+
