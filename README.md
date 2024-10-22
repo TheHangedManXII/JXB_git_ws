@@ -3,7 +3,7 @@
 机械臂使用57、42、20型号步进电机驱动，Arduino mega2560单片机以及pc端作为主控单元。软体伸缩插管作为末端执行单元
 ### 作品安装说明：
 ### 一、系统运行环境说明：
-<table border="1">
+<table align="center" border="1">
     <tr>
         <th align="center">名称</th>  
         <th align="center">版本号</th>
@@ -71,35 +71,15 @@ cd ~/catkin_ws
 catkin_make --cmake-args             -DCMAKE_BUILD_TYPE=Release             -DPYTHON_EXECUTABLE=/usr/bin/python3             -DPYTHON_INCLUDE_DIR=/usr/include/python3.6m             -DPYTHON_LIBRARY=/usr/lib/x86_64-linux-gnu/libpython3.6m.so
 </pre>
 
-在终端运行roslaunch smallArmRobot_moveit_config demo.launch可实现在rviz仿真界面中对人体咽喉部位的位置发布，从而可通过ros中的话题订阅功能实现机械人与人体咽喉部位的相对位置确定。后运行rosrun smallArmRobot_driver moveit_i_demo1.py，可调用moveit实现对机械臂运行到人体咽喉部位的模拟仿真效果，并实现路径规划，从而能被现实中吸痰机械臂调用规划路径实现位置移动。
+在终端运行
+<pre>
+	roslaunch smallArmRobot_moveit_config demo.launch
+</pre>
 
-### 作品效果图：
-  
-![image](https://github.com/user-attachments/assets/9da5be49-4540-4fde-ae0b-2d0f33a00177)
+可实现在rviz仿真界面中对人体咽喉部位的位置发布，从而可通过ros中的话题订阅功能实现机械人与人体咽喉部位的相对位置确定。后运行
+<pre>
+	rosrun smallArmRobot_driver moveit_i_demo1.py
+</pre>	
+	
+ 可调用moveit实现对机械臂运行到人体咽喉部位的模拟仿真效果，并实现路径规划，从而能被现实中吸痰机械臂调用规划路径实现位置移动。
 
-<strong>
-图1 咽喉与机械臂末端相对定位效果图
-</strong>
-
-![image](https://github.com/user-attachments/assets/fa2e9f58-1e0c-4580-840e-f05a123f8d1e)
-
-<strong>
-图2 人脸关键点预估模型效果图
-</strong>
-
-![image](https://github.com/user-attachments/assets/7f89b09e-f5de-487d-b2a3-41b810dbd8f5)
-
-<strong>
-图3 moveit轨迹规划及仿真运动效果图
-</strong>
-
-
-
-<strong>
-图4 机械臂实际效果图
-</strong>
-
-<div align="center">
-  <img src="![image](https://github.com/user-attachments/assets/8334b3da-4d88-4710-bb71-2a65a8c597a3)">
-<p><strong>这是一些文本！</strong></p>
-	</div>
